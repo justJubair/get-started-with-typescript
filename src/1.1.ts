@@ -7,8 +7,7 @@
 
     anything = "name";
 
-    anything = 55;
-    (anything as number)
+
 
     const kgToGm = (value:string | number): string | number | undefined=>{
         if(typeof value === "string"){
@@ -19,14 +18,21 @@
         else if(typeof value === "number"){
             return value*1000
         }
-
-
     }
 
 
+
     const result1 = kgToGm(5) as number
-    const result2 = kgToGm("100") as string
-    console.log(result2)
+
+
+
+
+
+
+
+
+    const result2 = kgToGm("100")
+ 
 
 
     type CustomError = {

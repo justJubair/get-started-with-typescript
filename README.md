@@ -23,7 +23,7 @@ TypeScript is like a cool upgrade to JavaScript made by Microsoft. It's sort of 
 
 ## Getting Started
 
-Since you're in this repo, I assume you already have node.js installed in your machince, if not do it [now](https://nodejs.org/en). Install typescript globally in your machine.
+Since you're in this repo, I assume you already have node.js installed in your machine, if not do it [now](https://nodejs.org/en). Install typescript globally in your machine.
  ```bash
    npm install -g typescript
    ```
@@ -32,6 +32,14 @@ Since you're in this repo, I assume you already have node.js installed in your m
 ## Basic Concepts
 
 Understand the fundamental concepts of TypeScript, including variables, data types, type inference, and basic syntax.
+
+### Type Assertion
+
+Type assertion in TypeScript is like telling TypeScript, "Hey, trust me, I know what I'm doing with this variable's type!" It's a way for developers to explicitly inform the TypeScript compiler about the type of a variable, overriding its default type inference.
+
+Imagine you have a variable in TypeScript, but TypeScript isn't sure of its exact type based on the context. With type assertion, you can assert or "cast" the variable to a specific type that you know it should be. This helps TypeScript understand your intentions and allows you to access properties or methods of that specific type without compiler errors.
+
+The moment you assert a type, you can easily access the specific methods for the type. Check the 
 
 ## Type Annotations
 
